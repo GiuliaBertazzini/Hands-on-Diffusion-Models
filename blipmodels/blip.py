@@ -77,7 +77,7 @@ class BLIP_Base(nn.Module):
         
 class BLIP_Decoder(nn.Module):
     def __init__(self,                 
-                 med_config = '/Prove/Bertazzini/SLR/DE-FAKE/blipmodels/blipconfig/med_config.json',
+                 med_config = 'blipconfig/med_config.json',
                  image_size = 384,
                  vit = 'base',
                  vit_grad_ckpt = False,
