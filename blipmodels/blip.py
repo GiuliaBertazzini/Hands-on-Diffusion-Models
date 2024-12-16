@@ -77,7 +77,7 @@ class BLIP_Base(nn.Module):
         
 class BLIP_Decoder(nn.Module):
     def __init__(self,                 
-                 med_config = 'blipconfig/med_config.json',
+                 med_config = 'blipmodels/blipconfig/med_config.json',
                  image_size = 384,
                  vit = 'base',
                  vit_grad_ckpt = False,
