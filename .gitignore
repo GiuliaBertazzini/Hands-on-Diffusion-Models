@@ -1,0 +1,16 @@
+training_images/
+.directory
+generate_prompts_blip.py
+get_images.py
+results.txt
+test_seed.py
+test.py
+train_v2.py
+train.py
+attribution_models/
+detection_models/
+*.pth
+*.pt
+*.log
+*.tmp
+.DS_Store
