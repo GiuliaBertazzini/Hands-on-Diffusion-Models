@@ -7,8 +7,6 @@ test_seed.py
 test.py
 train_v2.py
 train.py
-attribution_models/
-detection_models/
 *.pth
 *.pt
 *.log
